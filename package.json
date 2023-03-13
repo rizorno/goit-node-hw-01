@@ -1,0 +1,26 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizorno/goit-node-hw-01.git"
+  },
+  "keywords": [],
+  "author": "rizorno",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "ansi-colors-es6": "^5.0.0",
+    "commander": "^10.0.0",
+    "nanoid": "^4.0.1"
+  }
+}
