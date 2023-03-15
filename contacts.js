@@ -14,7 +14,7 @@ const contactsPath = join(logsDir, "contacts.json");
 export function listContacts() {
   fs.readFile(contactsPath, { encoding: "utf8" }, (error, data) => {
     try {
-      console.table(JSON.parse(data.toString(null, "\t")));
+      console.table(JSON.parse(data));
     } catch (error) {
       console.log(error.message);
     }
